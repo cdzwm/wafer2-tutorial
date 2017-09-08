@@ -24,36 +24,36 @@ AppSecret: e6647df40ecca5996c77b77d05c91234  <br />
 三、配置服务器
 1. 业务服务器配置
 -----------------
-重新安装操作系统  <br />
-通过ssh客户端登录  <br />
-yum install git  <br />
-wget https://nodejs.org/dist/v8.4.0/node-v8.4.0-linux-x64.tar.xz  <br />
-tar zxf node-v8.4.0-linux-x64.tar.xz  <br />
-mv node-v8.4.0-linux-x64 /opt/node  <br />
-cd /data/release/server  <br />
-npm install  <br />
-npm install pm2 -g  <br />
-node tools/initdb.js  <br />
+	重新安装操作系统
+	通过ssh客户端登录
+	yum install git
+	wget https://nodejs.org/dist/v8.4.0/node-v8.4.0-linux-x64.tar.xz
+	tar zxf node-v8.4.0-linux-x64.tar.xz
+	mv node-v8.4.0-linux-x64 /opt/node
+	cd /data/release/server
+	npm install
+	npm install pm2 -g
+	node tools/initdb.js
 
-/data/release/server/config.js  <br />
-/data/release/sdk.config.json  <br />
+	/data/release/server/config.js
+	/data/release/sdk.config.json
 
 2. 会话服务器配置
 -----------------
-重新安装操作系统  <br />
-通过ssh客户端登录  <br />
-cd /opt/lampp/htdocs  <br />
-./update_mina.sh  <br />
-/opt/lampp/htdocs/mina_auth/system/db/db.ini  <br />
+	重新安装操作系统
+	通过ssh客户端登录
+	cd /opt/lampp/htdocs
+	./update_mina.sh
+	/opt/lampp/htdocs/mina_auth/system/db/db.ini
 
-只有这三荐内容根据需要修改  <br />
-host = 172.211.0.105 你的mysql服务器内网IP  <br />
-user_name = root  你的mysql服务器用户名  <br />
-pass_wd = mysqlpass 你的mysql服务器密码  <br />
+	只有这三荐内容根据需要修改
+	host = 172.211.0.105 你的mysql服务器内网IP
+	user_name = root  你的mysql服务器用户名
+	pass_wd = mysqlpass 你的mysql服务器密码
 
 四、下载微信开发者工具软件
 -------------------------
-请点击如下网址，根据自己的电脑操作系统，下载对应平台的微信开发者工具软件，并安装：
+请点击如下网址，根据自己的电脑操作系统，下载对应平台的微信开发者工具软件，并安装：  <br />
 https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html  <br />
 
 运行开发工具，会提示用微信扫描登录。使用微信扫描，登录并授权  <br />
