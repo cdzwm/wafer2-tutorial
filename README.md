@@ -65,5 +65,5 @@ https://mp.weixin.qq.com  <br />
 在编辑器中打开 /client/config.js  <br />
 把文件中下行的 xxx.xxx.xxx修改为你申请的域名  <br />
 var host = 'https://xxx.xxx.xxx';  <br />
-
+<img src="images/domain.png" />
 点编译就可进行测试了。  <br />
