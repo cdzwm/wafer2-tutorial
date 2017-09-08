@@ -11,7 +11,7 @@
   一台mysql服务器(MySQL5.6)  <br />
 
 二、收集要用到的配置信息
-1. 登录微信公众平台｜小程序(https://mp.weixin.qq.com),依次点击"设置->开发者设置"，将你的AppID记录下来备用;  <br />
+1. <a href="https://mp.weixin.qq.com">登录微信公众平台｜小程序</a>,依次点击"设置->开发者设置"，将你的AppID记录下来备用;  <br />
 点击"AppSecret(小程序密钥)"右侧的重置按钮，按提示查看并记录"AppSecret(小程序密钥)"。 <br />
 AppID: wx8afbcb404a881234  <br />
 AppSecret: e6647df40ecca5996c77b77d05c91234  <br />
