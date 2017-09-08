@@ -1,0 +1,6 @@
+{
+"serverHost": "37282234.canw.club",
+"authServerUrl": "http://172.21.0.8/mina_auth/",
+"tunnelServerUrl": "https://37282234.ws.qcloud.la",
+"tunnelSignatureKey": "27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89"
+}
