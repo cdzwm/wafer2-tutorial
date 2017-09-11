@@ -19,7 +19,7 @@
     AppID: wx8afbcb404a881234
     AppSecret: e6647df40ecca5996c77b77d05c91234
 
-2. <a href="https://console.qcloud.com/">登录腾讯云</a>,分别记录业务服务器的公网IP，内网IP，会话服务器的公网IP和内网IP，微信小程序数据库MySQL的内网地址。  <br />
+2. <a href="https://console.qcloud.com/">登录腾讯云</a>,分别记录业务服务器的公网IP，内网IP，会话服务器的公网IP和内网IP，微信小程序数据库MySQL的内网地址。例如：
 
 	会话服务器：139.199.119.217(公) 172.215.0.80(内)
 	业务服务器：123.207.152.208(公) 172.215.0.110(内)
