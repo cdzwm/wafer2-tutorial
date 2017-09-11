@@ -44,10 +44,10 @@
 __修改这几个文件中标注“//*”的部分。__
 
 	/data/release/server/config.js
-	<a href="config/config.js">config.js</a>
+<a href="config/config.js">config.js</a>
 
 	/data/release/sdk.config.json
-	<a href="config/sdk.config.json">sdk.config.json</a>
+<a href="config/sdk.config.json">sdk.config.json</a>
 
 
 2. 会话服务器配置
@@ -58,7 +58,8 @@ __修改这几个文件中标注“//*”的部分。__
 	cd /opt/lampp/htdocs
 	./update_mina.sh
 	/opt/lampp/htdocs/mina_auth/system/db/db.ini
-	<a =href="config/db.ini'>db.ini</a>
+<a =href="config/db.ini'>db.ini</a>
+
 __只有这三项内容需要根据你的实际情况修改__
 
 	host = 172.211.0.105 你的mysql服务器内网IP
