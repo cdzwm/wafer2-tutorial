@@ -3,10 +3,10 @@ const CONF = {
 	rootPathname: '',
 
 	// 微信小程序 App ID
-	appId: 'wx8afbcb404a885420',
+	appId: 'wx8afbcb404a881234', //* 你的AppID
 
 	   // 微信小程序 App Secret
-	appSecret: 'e6647df40ecca5996c77b77d05c96f83',
+	appSecret: 'e6647df40ecca5996c77b77d05c91234', //* 你的appSecret
 
 	   // 是否使用腾讯云代理登录小程序
 	useQcloudLogin: false,
@@ -17,11 +17,11 @@ const CONF = {
 	* 开发环境下，MySQL 的初始密码为您的微信小程序 appid
 	*/
 	mysql: {
-		host: '172.21.0.15',
+		host: '172.211.0.105', // * 数据库服务器的内网IP
 		port: 3306,
-		user: 'root',
+		user: 'root', //* mysql数据库的用户名
 		db: 'cAuth',
-		pass: 'myroot123',
+		pass: 'mysqlpass', //* mysql 数据库的密码
 		char: 'utf8mb4'
 	},
 
@@ -35,17 +35,19 @@ const CONF = {
 		  * 新加坡：sg
 		  * @see https://www.qcloud.com/document/product/436/6224
 		  */
-		region: 'cn-north',
+		region: 'cn-north', //* 这个根据实际情况选择
 		// Bucket 名称
 		fileBucket: 'wximg',
 		// 文件夹
 		uploadFolder: ''
 	 },
 
-	qcloudAppId: '1254251189',
-	qcloudSecretId: 'AKIDocRdpPezmcq02VEBXrLjrIwovyqr6sfJ',
-	qcloudSecretKey: 'lzGPNlFgBXxEbE9Mk2YahCan5Qb92rVy',
-	wxMessageToken:'X-WX-Code',
+	// 以下内容可以在如下网址中找到：https://console.qcloud.com/capi	
+
+	qcloudAppId: '12541234', //* APPID
+	qcloudSecretId: 'AKIDocRdpPezmcq02VEBXrLjrIwovyqr1234', //* SecretId
+	qcloudSecretKey: 'lzGPNlFgBXxEbE9Mk2YahCan5Qb91234', //* SecretKey
+	wxMessageToken:'X-WX-Code', 
 
 	// 微信登录态有效期
 	wxLoginExpires: 5000
