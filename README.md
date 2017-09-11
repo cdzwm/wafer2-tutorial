@@ -42,6 +42,7 @@
 	node tools/initdb.js
 
 ** 修改这几个文件中标注“//*”的部分。**
+
 	/data/release/server/config.js
 	/data/release/sdk.config.json
 
