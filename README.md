@@ -36,10 +36,14 @@
 	wget https://nodejs.org/dist/v8.4.0/node-v8.4.0-linux-x64.tar.xz
 	tar zxf node-v8.4.0-linux-x64.tar.xz
 	mv node-v8.4.0-linux-x64 /opt/node
+
+编辑/root/.bash_profile,将/opt/node/bin添加到路径中去。然后重新登录，执行如下命令：
+
 	cd /data/release/server
 	npm install
 	npm install pm2 -g
 	node tools/initdb.js
+
 
 __修改这几个文件中标注“//*”的部分。__
 
