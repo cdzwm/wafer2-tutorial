@@ -62,7 +62,7 @@ __修改这几个文件中标注“//*”的部分。__
 	cd /opt/lampp/htdocs
 	./update_mina.sh
 	/opt/lampp/htdocs/mina_auth/system/db/db.ini
-<a =href="config/db.ini'>db.ini</a>
+<a =href="config/db.ini">db.ini</a>
 
 __只有这三项内容需要根据你的实际情况修改__
 
