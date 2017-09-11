@@ -39,6 +39,10 @@
 
 编辑/root/.bash_profile,将/opt/node/bin添加到路径中去。然后重新登录，执行如下命令：
 
+	cd
+	git clone https://github.com/tencentyun/wafer2-startup.git
+	cp -r /root/wafer2-startup/server /data/release
+
 	cd /data/release/server
 	npm install
 	npm install pm2 -g
