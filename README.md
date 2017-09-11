@@ -55,7 +55,7 @@ __修改这几个文件中标注“//*”的部分。__
 	./update_mina.sh
 	/opt/lampp/htdocs/mina_auth/system/db/db.ini
 
-__只有这三荐内容根据需要修改__
+__只有这三项内容需要根据你的实际情况修改__
 
 	host = 172.211.0.105 你的mysql服务器内网IP
 	user_name = root  你的mysql服务器用户名
