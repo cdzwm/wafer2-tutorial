@@ -64,13 +64,13 @@ __只有这三项内容需要根据你的实际情况修改__
 四、下载微信开发者工具软件
 -------------------------
 请点击如下网址，根据自己的电脑操作系统，下载对应平台的微信开发者工具软件，并安装：  <br />
-https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html  <br />
+<https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html>  <br />
 
 运行开发工具，会提示用微信扫描登录。使用微信扫描，登录并授权  <br />
 <img src="images/login_dev1.png" />  <br />
 在接下来的界面中选择小程序项目。  <br />
 <img src="images/login_dev2.png" />  <br />
-https://mp.weixin.qq.com  <br />
+<https://mp.weixin.qq.com>  <br />
 
 在编辑器中打开 /client/config.js  <br />
 把文件中下行的 xxx.xxx.xxx修改为你申请的域名  <br />
