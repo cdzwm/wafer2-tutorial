@@ -71,16 +71,16 @@ __此db.ini文件，只有如下内容需要根据你的实际值进行修改:__
 	pass_wd = mysqlpass  # 你的mysql服务器密码
 
 ## 四、下载微信开发者工具软件,进行测试 ##
-1. 下载DEMO源代码。
+### 1. 下载DEMO源代码。
 	> git clone https://github.com/tencentyun/wafer2-startup.git
-2. 下载安装开发者工具。
+### 2. 下载安装开发者工具。
 	>根据自己的操作系统下载[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，然后进行安装。 
-3. 登录开者工具。
+### 3. 登录开者工具。
 >并运行开发工具，软件会提示用微信扫描登录。使用微信扫描登录后，在接下来的界面中选择小程序项目。
-4.[修改小程序请求域名](https://mp.weixin.qq.com)
+### 4.[修改小程序请求域名](https://mp.weixin.qq.com)
 >将你申请的域名添加到小程序的域名信息中。
 
-5.修改DEMO小程序客户端代码中的域名配置信息。
+### 5.修改DEMO小程序客户端代码中的域名配置信息。
 >在编辑器中打开 /client/config.js文件。把文件中var host = 'https://xxx.xxx.xxx'行的 xxx.xxx.xxx修改为你申请的域名，然后点编译就可进行DEMO的测试了。
 
 **注意：
