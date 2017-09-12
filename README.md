@@ -12,7 +12,7 @@
 
 ## 二、收集要用到的配置信息 ##
 
-1. [登录微信公众平台｜小程序]("https://mp.weixin.qq.com")，然后执行如下和：
+### 1. [登录微信公众平台｜小程序]("https://mp.weixin.qq.com")，然后执行如下和：
 	- 依次点击"设置->开发者设置"，记录你的AppID。
 	- 点击"AppSecret(小程序密钥)"右侧的重置按钮，按提示查看并记录"AppSecret(小程序密钥)"。
 		
@@ -21,7 +21,7 @@
 			AppID: wx8afbcb404a881234
 			AppSecret: e6647df40ecca5996c77b77d05c91234
 
-2. [登录腾讯云]("https://console.qcloud.com/")，分别记录:
+### 2. [登录腾讯云]("https://console.qcloud.com/")，分别记录:
 	- 业务服务器的公网IP，内网IP
 	- 会话服务器的公网IP和内网IP
 	- 微信小程序数据库MySQL的内网地址。
