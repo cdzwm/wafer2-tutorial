@@ -55,7 +55,7 @@ __修改这几个配置文件中标注“//**//”的部分。示例文件中有
 - /data/release/server/config.js [查看示例文件](config/config.js)
 - /data/release/sdk.config.json [查看示例文件](config/sdk.config.json)
 
-2. 会话服务器配置
+### 2. 会话服务器配置 ###
 -----------------
 
 - 重新安装操作系统
