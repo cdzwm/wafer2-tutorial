@@ -70,10 +70,12 @@ __此db.ini文件，只有如下内容需要根据你的实际值进行修改:__
 	user_name = root     # 你的mysql服务器用户名
 	pass_wd = mysqlpass  # 你的mysql服务器密码
 
-## 四、配置域名解析
+<!--
+## 配置域名解析
 到腾讯云的域名服务[域名服务](https://console.qcloud.com/cns/domains), 添加一个CNAME记录（例如：ywserver), 将这个记录解析到你的负载均衡服务上。那么ywserver.xxx.xxx将指向你的负载均衡。
+-->
 
-## 五、下载微信开发者工具软件,进行测试 ##
+## 四、下载微信开发者工具软件,进行测试 ##
 ### 1. 下载DEMO源代码。
 	> git clone https://github.com/tencentyun/wafer2-startup.git
 ### 2. 下载安装开发者工具。
@@ -84,7 +86,7 @@ __此db.ini文件，只有如下内容需要根据你的实际值进行修改:__
 >将你申请的域名添加到小程序的域名信息中。
 
 ### 5.修改DEMO小程序客户端代码中的域名配置信息。
->在编辑器中打开 /client/config.js文件。把文件中var host = 'https://xxx.xxx.xxx'行的 xxx.xxx.xxx修改为你在第四步中配置的域名(例如：ywserver.xxx.xxx)，然后点编译就可进行DEMO的测试了。
+>在编辑器中打开 /client/config.js文件。把文件中var host = 'https://xxx.xxx.xxx'行的 xxx.xxx.xxx修改为你的生产环境服务器域名即可，然后点编译就可进行DEMO的测试了。
 
 **注意：
 成功进行配置并测试的关键是如下三个文件的配置。在示例文件中有详细的说明。请仔细阅读。**
@@ -93,5 +95,5 @@ __此db.ini文件，只有如下内容需要根据你的实际值进行修改:__
 - /data/release/sdk.config.json
 - /opt/lampp/htdocs/mina_auth/system/db/db.ini
 
-## 六、总结 ##
+## 五、总结 ##
 如有问题，请联系QQ: 495720919, 或电邮: <495720919@qq.com>。
